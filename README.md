@@ -8,6 +8,8 @@ Built for the Hacktoberfest 2026 Week 3 **Slow and Steady** theme during the cha
 
 The screenshot uses only the built-in synthetic example. The expanded group shows that original messages stay available rather than being replaced by a generated summary.
 
+[View the 64-second browser demonstration](docs/steady-inbox-demo.gif). It is assembled from genuine screenshots of the empty, validation, and grouped-result states; no personal messages are included.
+
 ## Run on Windows
 
 Python 3.12 **x64**, about 400 MB of free disk space, and an initial internet connection are required. Windows ARM64 was tested using x64 Python under emulation; native ARM Python with these dependency pins was not tested.
@@ -53,7 +55,7 @@ To reproduce the browser demo, start the service, choose **Try an example**, and
 
 ![Steady Inbox empty state before synthetic notes are loaded](docs/steady-inbox-empty.png)
 
-Validation results and the submission draft live outside the source repository while publication is pending. This repository has not yet been published. A public demo/video and public code link must exist before a valid DEV entry can be submitted. Do not present a localhost link as a public deployment.
+Detailed local validation notes and the submission draft are tracked separately from the source repository. The repository includes a public screenshot-based demonstration; the application itself runs locally and the localhost URL is not presented as a public deployment.
 
 ## Licenses and attribution
 
@@ -61,6 +63,6 @@ App code: MIT. Model weights and tokenizer: Apache-2.0, by the Sentence Transfor
 
 ## Challenge submission status
 
-Local preparation only; no DEV entry has been published. DEV Week 3 closes October 25, 2026 at 11:59 PM PDT (October 26, 2:59 AM Toronto). Confirm age/country eligibility and approve the final demo, code publication and article before submitting.
+The code and demo were approved for publication on October 24, 2026. No DEV entry had been published when this README revision was committed. DEV Week 3 closes October 25, 2026 at 11:59 PM PDT (October 26, 2:59 AM Toronto).
 
 Any work committed after that deadline must be disclosed here before using the repository in a challenge entry.
